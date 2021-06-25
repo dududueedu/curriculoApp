@@ -28,6 +28,25 @@ const styles = StyleSheet.create({
         width: '50%',
         justifyContent: 'space-evenly',
         marginTop: 10
+    }, 
+    cardContainer: {
+        width: '100%', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        marginTop: 15
+    }, 
+    card: {
+        width: '60%', 
+        borderWidth: 2, 
+        borderRadius: 15,
+        borderColor: '#939393',
+        alignItems: 'center', 
+        padding: 5
+    }, 
+    cardText: {
+        color: '#939393', 
+        paddingTop: 5, 
+        textAlign: 'center'
     }
 });
 
