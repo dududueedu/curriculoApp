@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, Image, Linking } from 'react-native';
+import { Text, View, Image } from 'react-native';
 
 import pngFoto from './assets/img/perfil.png'
 import myStylo from './css/style'
@@ -8,20 +8,6 @@ import Card from './components/Card'
 import RedeSociais from './components/RedeSociais'
 
 export default function App() {
-
-  function handleRedeSocial(rs) {
-    switch (rs) {
-      case 'github':
-        Linking.openURL('https://github.com/dududueedu')
-        break
-      case 'facebook':
-        Linking.openURL('https://www.facebook.com/profile.php?id=100005503066960')
-        break
-      case 'linkedin':
-        Linking.openURL('https://www.linkedin.com/in/dududueedu/')
-        break
-    }
-  }
 
   return (
     <View style={myStylo.container}>
