@@ -1,21 +1,18 @@
 import React from 'react';
-import { Text, View, Image } from 'react-native';
+import { Text, View } from 'react-native';
 
-import pngFoto from './assets/img/perfil.png'
 import myStylo from './css/style'
 
 import Card from './components/Card'
 import RedeSociais from './components/RedeSociais'
+import Perfil from './components/Perfil'
 
 export default function App() {
 
   return (
     <View style={myStylo.container}>
       <View style={myStylo.containerPerfil}>
-        <Image style={myStylo.fotoPNG} source={pngFoto} />
-        <Text style={myStylo.name}>Eduardo da Silva Gomes</Text>
-        <Text style={myStylo.profissao}>Desenvolvedor Web e Mobile</Text>
-
+        <Perfil />
         <RedeSociais />
       </View>
 
