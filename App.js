@@ -1,13 +1,11 @@
 import React from 'react';
-import { Text, View, Image, TouchableOpacity, Linking } from 'react-native';
-import { AntDesign } from '@expo/vector-icons';
-import { FontAwesome5 } from '@expo/vector-icons';
-import { Entypo } from '@expo/vector-icons';
+import { Text, View, Image, Linking } from 'react-native';
 
 import pngFoto from './assets/img/perfil.png'
 import myStylo from './css/style'
 
 import Card from './components/Card'
+import RedeSociais from './components/RedeSociais'
 
 export default function App() {
 
@@ -31,14 +29,8 @@ export default function App() {
         <Image style={myStylo.fotoPNG} source={pngFoto} />
         <Text style={myStylo.name}>Eduardo da Silva Gomes</Text>
         <Text style={myStylo.profissao}>Desenvolvedor Web e Mobile</Text>
-        <View style={myStylo.redeSociais}>
-          <TouchableOpacity onPress={() => handleRedeSocial('github')}>
-            <AntDesign name="github" size={21} color="black" /></TouchableOpacity>
-          <TouchableOpacity onPress={() => handleRedeSocial('facebook')}>
-            <FontAwesome5 name="facebook" size={21} color="black" /></TouchableOpacity>
-          <TouchableOpacity onPress={() => handleRedeSocial('linkedin')}>
-            <Entypo name="linkedin-with-circle" size={21} color="black" /></TouchableOpacity>
-        </View>
+
+        <RedeSociais />
       </View>
 
       <Card titulo="Experiências">
