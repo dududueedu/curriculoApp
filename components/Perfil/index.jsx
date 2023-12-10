@@ -9,7 +9,7 @@ const Perfil = () => {
         <>
             <Image style={myStylo.fotoPNG} source={pngFoto} />
             <Text style={myStylo.name}>Eduardo da Silva Gomes</Text>
-            <Text style={myStylo.profissao}>Desenvolvedor Web e Mobile</Text>
+            <Text style={myStylo.profissao}>Desenvolvedor de Sistemas</Text>
         </>
     )
 }
