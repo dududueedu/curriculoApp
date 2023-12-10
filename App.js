@@ -32,6 +32,15 @@ export default function App() {
         <Text style={myStylo.cardText}>
           Bacharelado em Sistemas de Informação, UFC, Quixadá-CE (2018 – 2023).</Text>
       </Card>
+
+      <Card titulo="Cursos">
+        <Text style={myStylo.cardText}>
+          Testes Automatizados (TDD + BDD): 40H</Text>
+        <Text style={myStylo.cardText}>
+          Inovando Com CSS: 26H</Text>
+        <Text style={myStylo.cardText}>
+          Implementando Banco de Dados: 15H</Text>
+      </Card>
     </View>
   );
 }
