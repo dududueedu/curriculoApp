@@ -16,15 +16,6 @@ export default function App() {
         <RedeSociais />
       </View>
 
-      <Card titulo="Experiências">
-        <Text style={myStylo.cardText}>
-          CONECTY - Provedor de Acesso a Internet & Telecom,
-          Paracuru-CE (Ago 2017 – Dez 2017)</Text>
-        <Text style={myStylo.cardText}>
-          Bolsista do PAIP - Programa de Acolhimento e Incentivo à
-          Permanência (mai 2021 – fev 2022)</Text>
-      </Card>
-
       <Card titulo="Formação">
         <Text style={myStylo.cardText}>
           Ensino Médio e Curso Técnico de Informática, EEEP Flávio Gomes
@@ -40,6 +31,19 @@ export default function App() {
           Inovando Com CSS: 26H</Text>
         <Text style={myStylo.cardText}>
           Implementando Banco de Dados: 15H</Text>
+      </Card>
+
+      <Card titulo="Experiências">
+        <Text style={myStylo.cardText}>
+          Instalador de Telecomunicações - CONECTY,
+          Paracuru-CE (Ago 2017 – Dez 2017)</Text>
+        <Text style={myStylo.cardText}>
+          Bolsista do PAIP - Programa de Acolhimento e Incentivo à
+          Permanência - UFC (mai 2021 – fev 2022)</Text>
+        <Text style={myStylo.cardText}>
+          Estagiário de desenvolvimento de software - UFC
+            (mai 2021 – fev 2022)
+        </Text>
       </Card>
     </View>
   );
