@@ -21,10 +21,8 @@ export default function App() {
           CONECTY - Provedor de Acesso a Internet & Telecom,
           Paracuru-CE (Ago 2017 – Dez 2017)</Text>
         <Text style={myStylo.cardText}>
-          Semana Spring React, edição SDS 3.0</Text>
-        <Text style={myStylo.cardText}>
-          Bolsista do Programa de Acolhimento e Incentivo à
-          Permanência (mai 2021 – atual)</Text>
+          Bolsista do PAIP - Programa de Acolhimento e Incentivo à
+          Permanência (mai 2021 – fev 2022)</Text>
       </Card>
 
       <Card titulo="Formação">
@@ -32,7 +30,7 @@ export default function App() {
           Ensino Médio e Curso Técnico de Informática, EEEP Flávio Gomes
               Granjeiro, Paraipaba-CE (2015 – 2017).</Text>
         <Text style={myStylo.cardText}>
-          Bacharelado em Sistemas de Informação, UFC, Quixadá-CE (2018 – atual).</Text>
+          Bacharelado em Sistemas de Informação, UFC, Quixadá-CE (2018 – 2023).</Text>
       </Card>
     </View>
   );
